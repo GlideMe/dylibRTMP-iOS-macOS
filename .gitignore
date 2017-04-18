@@ -4,7 +4,15 @@
 
 ## Build generated
 build/
+tmp-build/
 DerivedData/
+
+## Open SSL related
+OpenSSL/
+!OpenSSL/build-OpenSSL-iOS-Mac.sh
+
+## Final Product folder
+Products/
 
 ## Various settings
 *.pbxuser
@@ -58,3 +66,4 @@ fastlane/screenshots
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
+
