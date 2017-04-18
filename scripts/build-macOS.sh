@@ -11,7 +11,7 @@ DEVICE_DYSM=${DEVICE_DIR}.dSYM
 
 # Install dir will be the final output to the framework.
 # The following line create it in the root folder of the current project.
-INSTALL_DIR=${WRK_DIR}/../Products
+INSTALL_DIR=../Products
 INSTALL_FMK=${INSTALL_DIR}/${FMK_NAME}.framework
 INSTALL_BIN=${INSTALL_FMK}/${FMK_NAME}
 INSTALL_DSYM_DIR=${INSTALL_DIR}/dSYM

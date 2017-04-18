@@ -1,5 +1,7 @@
 #!/bin/bash
 
+## Doron Adler, GlideTalk, @Norod78
+
 ##
 ## Clone rtmpdump
 echo "******************************************************"
@@ -35,4 +37,4 @@ pushd ./scripts
 echo "Done"
 popd
 
-
+open ./Products
