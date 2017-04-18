@@ -9,7 +9,7 @@
 # Peter Steinberger, PSPDFKit GmbH, @steipete.
 # Doron Adler, GlideTalk, @Norod78
 
-# Updated to work with Xcode 7 and iOS 9
+# Updated to work with Xcode 8 and iOS 10
 
 set -e
 
