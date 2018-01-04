@@ -6,6 +6,8 @@
 //  Copyright © 2016 Glide. All rights reserved.
 //
 
+#import <Foundation/Foundation.h>
+
 //! Project version number for libRTMP_macOS.
 FOUNDATION_EXPORT double libRTMP_macOSVersionNumber;
 
