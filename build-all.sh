@@ -37,4 +37,6 @@ pushd ./scripts
 echo "Done"
 popd
 
+open ./platform/verifyLinkToLib
 open ./Products
+
