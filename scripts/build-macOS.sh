@@ -17,7 +17,7 @@ INSTALL_BIN=${INSTALL_FMK}/${FMK_NAME}
 INSTALL_DSYM_DIR=${INSTALL_DIR}/dSYM
 
 # Platform specific project
-PLATFORM_PROJECT_DIR=${WRK_DIR}/../platform
+PLATFORM_PROJECT_DIR=${WRK_DIR}/../platform/libRTMP
 PLATFORM_PROJECT_NAME=libRTMP.xcodeproj
 
 #prepare Working directory

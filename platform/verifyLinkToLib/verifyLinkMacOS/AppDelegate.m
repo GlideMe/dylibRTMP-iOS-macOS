@@ -19,13 +19,17 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     // Insert code here to initialize your application
+    NSLog(@"Allocating RTMP context");
     pRTMP = RTMP_Alloc();
+    NSLog(@"Initializing RTMP context");
     RTMP_Init(pRTMP);
+    NSLog(@"RTMP context address is %p", pRTMP);
 }
 
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {
     if (pRTMP) {
+        NSLog(@"Deallocating RTMP context with address %p", pRTMP);
         RTMP_Free(pRTMP);
         pRTMP = NULL;
     }
