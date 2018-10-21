@@ -461,6 +461,7 @@
 					"$(SRCROOT)/../OpenSSL/lib/iOS",
 					"$(SRCROOT)/../../OpenSSL/lib/iOS",
 				);
+				MACH_O_TYPE = staticlib;
 				OTHER_CFLAGS = "-fembed-bitcode";
 				PRODUCT_BUNDLE_IDENTIFIER = com.glidetalk.libRTMP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -488,6 +489,7 @@
 					"$(SRCROOT)/../OpenSSL/lib/iOS",
 					"$(SRCROOT)/../../OpenSSL/lib/iOS",
 				);
+				MACH_O_TYPE = staticlib;
 				OTHER_CFLAGS = "-fembed-bitcode";
 				PRODUCT_BUNDLE_IDENTIFIER = com.glidetalk.libRTMP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
