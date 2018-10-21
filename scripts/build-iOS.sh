@@ -3,7 +3,7 @@
 ## Doron Adler, GlideTalk, @Norod78
 
 # Sets the target folders and the final framework product.
-FMK_NAME=libRTMP_iOS
+FMK_NAME=dylibRTMP_iOS
 FMK_VERSION=A
 
 # Working dir will be deleted after the framework creation.

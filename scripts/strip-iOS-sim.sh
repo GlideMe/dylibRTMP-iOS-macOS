@@ -4,7 +4,7 @@
 ## Creates a copy of the iOS framework, having the x86_64 and i386 slices removed
 ## You can use this binary for AppStore submissions which do not allow the removed slices
 
-FMK_NAME=libRTMP_iOS
+FMK_NAME=dylibRTMP_iOS
 FMK_VERSION=A
 
 PRODUCTS_DIR=../Products

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Sets the target folders and the final framework product.
-FMK_NAME=libRTMP_macOS
+FMK_NAME=dylibRTMP_macOS
 FMK_VERSION=A
 
 # Working dir will be deleted after the framework creation.

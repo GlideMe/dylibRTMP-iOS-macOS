@@ -11,16 +11,16 @@
 		E884E94A1FFE6DC300BF23A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E884E9491FFE6DC300BF23A0 /* Assets.xcassets */; };
 		E884E94D1FFE6DC300BF23A0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E884E94B1FFE6DC300BF23A0 /* MainMenu.xib */; };
 		E884E9501FFE6DC300BF23A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E884E94F1FFE6DC300BF23A0 /* main.m */; };
-		E884E9571FFE6E1400BF23A0 /* libRTMP_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E884E93E1FFE6D7200BF23A0 /* libRTMP_macOS.framework */; };
-		E884E9581FFE6E1400BF23A0 /* libRTMP_macOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E884E93E1FFE6D7200BF23A0 /* libRTMP_macOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E884E9641FFE715800BF23A0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E884E9631FFE715800BF23A0 /* AppDelegate.m */; };
 		E884E9671FFE715800BF23A0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E884E9661FFE715800BF23A0 /* ViewController.m */; };
 		E884E96A1FFE715800BF23A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E884E9681FFE715800BF23A0 /* Main.storyboard */; };
 		E884E96C1FFE715800BF23A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E884E96B1FFE715800BF23A0 /* Assets.xcassets */; };
 		E884E96F1FFE715800BF23A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E884E96D1FFE715800BF23A0 /* LaunchScreen.storyboard */; };
 		E884E9721FFE715800BF23A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E884E9711FFE715800BF23A0 /* main.m */; };
-		E884E9781FFE719500BF23A0 /* libRTMP_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E884E93C1FFE6D7200BF23A0 /* libRTMP_iOS.framework */; };
-		E884E9791FFE719500BF23A0 /* libRTMP_iOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E884E93C1FFE6D7200BF23A0 /* libRTMP_iOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E886494F217C754A003F6BE7 /* dylibRTMP_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E886494D217C753C003F6BE7 /* dylibRTMP_iOS.framework */; };
+		E8864951217C7551003F6BE7 /* dylibRTMP_iOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E886494D217C753C003F6BE7 /* dylibRTMP_iOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E8864986217C7A5F003F6BE7 /* dylibRTMP_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E886497E217C79C7003F6BE7 /* dylibRTMP_macOS.framework */; };
+		E8864987217C7A5F003F6BE7 /* dylibRTMP_macOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E886497E217C79C7003F6BE7 /* dylibRTMP_macOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,55 +38,55 @@
 			remoteGlobalIDString = E850E97A1E02FC1F0000CFC3;
 			remoteInfo = libRTMP_macOS;
 		};
-		E884E9551FFE6DEE00BF23A0 /* PBXContainerItemProxy */ = {
+		E886494C217C753C003F6BE7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E884E9361FFE6D7200BF23A0 /* libRTMP.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = E850E9601E02FC1F0000CFC3;
-			remoteInfo = libRTMP_macOS;
+			proxyType = 2;
+			remoteGlobalIDString = E886493B217C7293003F6BE7;
+			remoteInfo = dylibRTMP_iOS;
 		};
-		E884E9591FFE6E1400BF23A0 /* PBXContainerItemProxy */ = {
+		E8864952217C7551003F6BE7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E884E9361FFE6D7200BF23A0 /* libRTMP.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = E850E9601E02FC1F0000CFC3;
-			remoteInfo = libRTMP_macOS;
+			remoteGlobalIDString = E886493A217C7293003F6BE7;
+			remoteInfo = dylibRTMP_iOS;
 		};
-		E884E9761FFE716400BF23A0 /* PBXContainerItemProxy */ = {
+		E886497D217C79C7003F6BE7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E884E9361FFE6D7200BF23A0 /* libRTMP.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = E850E9221E02F44A0000CFC3;
-			remoteInfo = libRTMP_iOS;
+			proxyType = 2;
+			remoteGlobalIDString = E886495A217C7694003F6BE7;
+			remoteInfo = dylibRTMP_macOS;
 		};
-		E884E97A1FFE719500BF23A0 /* PBXContainerItemProxy */ = {
+		E8864988217C7A5F003F6BE7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E884E9361FFE6D7200BF23A0 /* libRTMP.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = E850E9221E02F44A0000CFC3;
-			remoteInfo = libRTMP_iOS;
+			remoteGlobalIDString = E8864959217C7694003F6BE7;
+			remoteInfo = dylibRTMP_macOS;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		E884E95B1FFE6E1400BF23A0 /* Embed Frameworks */ = {
+		E8864954217C7551003F6BE7 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				E884E9581FFE6E1400BF23A0 /* libRTMP_macOS.framework in Embed Frameworks */,
+				E8864951217C7551003F6BE7 /* dylibRTMP_iOS.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E884E97C1FFE719500BF23A0 /* Embed Frameworks */ = {
+		E886498A217C7A5F003F6BE7 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				E884E9791FFE719500BF23A0 /* libRTMP_iOS.framework in Embed Frameworks */,
+				E8864987217C7A5F003F6BE7 /* dylibRTMP_macOS.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -120,7 +120,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E884E9571FFE6E1400BF23A0 /* libRTMP_macOS.framework in Frameworks */,
+				E8864986217C7A5F003F6BE7 /* dylibRTMP_macOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,7 +128,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E884E9781FFE719500BF23A0 /* libRTMP_iOS.framework in Frameworks */,
+				E886494F217C754A003F6BE7 /* dylibRTMP_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,6 +142,7 @@
 				E884E9451FFE6DC300BF23A0 /* verifyLinkMacOS */,
 				E884E9611FFE715800BF23A0 /* verifyLinkIOS */,
 				E884E9441FFE6DC300BF23A0 /* Products */,
+				E886494E217C754A003F6BE7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -150,6 +151,8 @@
 			children = (
 				E884E93C1FFE6D7200BF23A0 /* libRTMP_iOS.framework */,
 				E884E93E1FFE6D7200BF23A0 /* libRTMP_macOS.framework */,
+				E886494D217C753C003F6BE7 /* dylibRTMP_iOS.framework */,
+				E886497E217C79C7003F6BE7 /* dylibRTMP_macOS.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -193,6 +196,13 @@
 			path = verifyLinkIOS;
 			sourceTree = "<group>";
 		};
+		E886494E217C754A003F6BE7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -203,13 +213,12 @@
 				E884E93F1FFE6DC300BF23A0 /* Sources */,
 				E884E9401FFE6DC300BF23A0 /* Frameworks */,
 				E884E9411FFE6DC300BF23A0 /* Resources */,
-				E884E95B1FFE6E1400BF23A0 /* Embed Frameworks */,
+				E886498A217C7A5F003F6BE7 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E884E9561FFE6DEE00BF23A0 /* PBXTargetDependency */,
-				E884E95A1FFE6E1400BF23A0 /* PBXTargetDependency */,
+				E8864989217C7A5F003F6BE7 /* PBXTargetDependency */,
 			);
 			name = verifyLinkMacOS;
 			productName = verifyLinkMacOS;
@@ -223,13 +232,12 @@
 				E884E95C1FFE715800BF23A0 /* Sources */,
 				E884E95D1FFE715800BF23A0 /* Frameworks */,
 				E884E95E1FFE715800BF23A0 /* Resources */,
-				E884E97C1FFE719500BF23A0 /* Embed Frameworks */,
+				E8864954217C7551003F6BE7 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E884E9771FFE716400BF23A0 /* PBXTargetDependency */,
-				E884E97B1FFE719500BF23A0 /* PBXTargetDependency */,
+				E8864953217C7551003F6BE7 /* PBXTargetDependency */,
 			);
 			name = verifyLinkIOS;
 			productName = verifyLinkIOS;
@@ -294,6 +302,20 @@
 			remoteRef = E884E93D1FFE6D7200BF23A0 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		E886494D217C753C003F6BE7 /* dylibRTMP_iOS.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = dylibRTMP_iOS.framework;
+			remoteRef = E886494C217C753C003F6BE7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E886497E217C79C7003F6BE7 /* dylibRTMP_macOS.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = dylibRTMP_macOS.framework;
+			remoteRef = E886497D217C79C7003F6BE7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -341,25 +363,15 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		E884E9561FFE6DEE00BF23A0 /* PBXTargetDependency */ = {
+		E8864953217C7551003F6BE7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = libRTMP_macOS;
-			targetProxy = E884E9551FFE6DEE00BF23A0 /* PBXContainerItemProxy */;
+			name = dylibRTMP_iOS;
+			targetProxy = E8864952217C7551003F6BE7 /* PBXContainerItemProxy */;
 		};
-		E884E95A1FFE6E1400BF23A0 /* PBXTargetDependency */ = {
+		E8864989217C7A5F003F6BE7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = libRTMP_macOS;
-			targetProxy = E884E9591FFE6E1400BF23A0 /* PBXContainerItemProxy */;
-		};
-		E884E9771FFE716400BF23A0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = libRTMP_iOS;
-			targetProxy = E884E9761FFE716400BF23A0 /* PBXContainerItemProxy */;
-		};
-		E884E97B1FFE719500BF23A0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = libRTMP_iOS;
-			targetProxy = E884E97A1FFE719500BF23A0 /* PBXContainerItemProxy */;
+			name = dylibRTMP_macOS;
+			targetProxy = E8864988217C7A5F003F6BE7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
