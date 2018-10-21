@@ -17,10 +17,10 @@
 		E884E96C1FFE715800BF23A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E884E96B1FFE715800BF23A0 /* Assets.xcassets */; };
 		E884E96F1FFE715800BF23A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E884E96D1FFE715800BF23A0 /* LaunchScreen.storyboard */; };
 		E884E9721FFE715800BF23A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E884E9711FFE715800BF23A0 /* main.m */; };
-		E886494F217C754A003F6BE7 /* dylibRTMP_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E886494D217C753C003F6BE7 /* dylibRTMP_iOS.framework */; };
-		E8864951217C7551003F6BE7 /* dylibRTMP_iOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E886494D217C753C003F6BE7 /* dylibRTMP_iOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		E8864986217C7A5F003F6BE7 /* dylibRTMP_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E886497E217C79C7003F6BE7 /* dylibRTMP_macOS.framework */; };
-		E8864987217C7A5F003F6BE7 /* dylibRTMP_macOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E886497E217C79C7003F6BE7 /* dylibRTMP_macOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E8E026EC217C93E200B1974E /* dylibRTMP_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E886494D217C753C003F6BE7 /* dylibRTMP_iOS.framework */; };
+		E8E026ED217C93E200B1974E /* dylibRTMP_iOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E886494D217C753C003F6BE7 /* dylibRTMP_iOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E8E026F3217C958B00B1974E /* dylibRTMP_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E886497E217C79C7003F6BE7 /* dylibRTMP_macOS.framework */; };
+		E8E026F4217C958B00B1974E /* dylibRTMP_macOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E886497E217C79C7003F6BE7 /* dylibRTMP_macOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,13 +45,6 @@
 			remoteGlobalIDString = E886493B217C7293003F6BE7;
 			remoteInfo = dylibRTMP_iOS;
 		};
-		E8864952217C7551003F6BE7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E884E9361FFE6D7200BF23A0 /* libRTMP.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = E886493A217C7293003F6BE7;
-			remoteInfo = dylibRTMP_iOS;
-		};
 		E886497D217C79C7003F6BE7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E884E9361FFE6D7200BF23A0 /* libRTMP.xcodeproj */;
@@ -59,34 +52,48 @@
 			remoteGlobalIDString = E886495A217C7694003F6BE7;
 			remoteInfo = dylibRTMP_macOS;
 		};
-		E8864988217C7A5F003F6BE7 /* PBXContainerItemProxy */ = {
+		E8E026EE217C93E200B1974E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E884E9361FFE6D7200BF23A0 /* libRTMP.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E886493A217C7293003F6BE7;
+			remoteInfo = "dylibRTMP-iOS";
+		};
+		E8E026F1217C955E00B1974E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E884E9361FFE6D7200BF23A0 /* libRTMP.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = E8864959217C7694003F6BE7;
-			remoteInfo = dylibRTMP_macOS;
+			remoteInfo = "dylibRTMP-macOS";
+		};
+		E8E026F5217C958B00B1974E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E884E9361FFE6D7200BF23A0 /* libRTMP.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E8864959217C7694003F6BE7;
+			remoteInfo = "dylibRTMP-macOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		E8864954217C7551003F6BE7 /* Embed Frameworks */ = {
+		E8E026F0217C93E200B1974E /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				E8864951217C7551003F6BE7 /* dylibRTMP_iOS.framework in Embed Frameworks */,
+				E8E026ED217C93E200B1974E /* dylibRTMP_iOS.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E886498A217C7A5F003F6BE7 /* Embed Frameworks */ = {
+		E8E026F7217C958B00B1974E /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				E8864987217C7A5F003F6BE7 /* dylibRTMP_macOS.framework in Embed Frameworks */,
+				E8E026F4217C958B00B1974E /* dylibRTMP_macOS.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -120,7 +127,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8864986217C7A5F003F6BE7 /* dylibRTMP_macOS.framework in Frameworks */,
+				E8E026F3217C958B00B1974E /* dylibRTMP_macOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,7 +135,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E886494F217C754A003F6BE7 /* dylibRTMP_iOS.framework in Frameworks */,
+				E8E026EC217C93E200B1974E /* dylibRTMP_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,8 +156,8 @@
 		E884E9371FFE6D7200BF23A0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E884E93C1FFE6D7200BF23A0 /* libRTMP_iOS.framework */,
-				E884E93E1FFE6D7200BF23A0 /* libRTMP_macOS.framework */,
+				E884E93C1FFE6D7200BF23A0 /* libRTMP-iOS.framework */,
+				E884E93E1FFE6D7200BF23A0 /* libRTMP-macOS.framework */,
 				E886494D217C753C003F6BE7 /* dylibRTMP_iOS.framework */,
 				E886497E217C79C7003F6BE7 /* dylibRTMP_macOS.framework */,
 			);
@@ -213,12 +220,13 @@
 				E884E93F1FFE6DC300BF23A0 /* Sources */,
 				E884E9401FFE6DC300BF23A0 /* Frameworks */,
 				E884E9411FFE6DC300BF23A0 /* Resources */,
-				E886498A217C7A5F003F6BE7 /* Embed Frameworks */,
+				E8E026F7217C958B00B1974E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E8864989217C7A5F003F6BE7 /* PBXTargetDependency */,
+				E8E026F2217C955E00B1974E /* PBXTargetDependency */,
+				E8E026F6217C958B00B1974E /* PBXTargetDependency */,
 			);
 			name = verifyLinkMacOS;
 			productName = verifyLinkMacOS;
@@ -232,12 +240,12 @@
 				E884E95C1FFE715800BF23A0 /* Sources */,
 				E884E95D1FFE715800BF23A0 /* Frameworks */,
 				E884E95E1FFE715800BF23A0 /* Resources */,
-				E8864954217C7551003F6BE7 /* Embed Frameworks */,
+				E8E026F0217C93E200B1974E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E8864953217C7551003F6BE7 /* PBXTargetDependency */,
+				E8E026EF217C93E200B1974E /* PBXTargetDependency */,
 			);
 			name = verifyLinkIOS;
 			productName = verifyLinkIOS;
@@ -250,7 +258,7 @@
 		E884E9301FFE6D6300BF23A0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 1000;
 				TargetAttributes = {
 					E884E9421FFE6DC300BF23A0 = {
 						CreatedOnToolsVersion = 9.2;
@@ -288,17 +296,17 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		E884E93C1FFE6D7200BF23A0 /* libRTMP_iOS.framework */ = {
+		E884E93C1FFE6D7200BF23A0 /* libRTMP-iOS.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
-			path = libRTMP_iOS.framework;
+			path = "libRTMP-iOS.framework";
 			remoteRef = E884E93B1FFE6D7200BF23A0 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		E884E93E1FFE6D7200BF23A0 /* libRTMP_macOS.framework */ = {
+		E884E93E1FFE6D7200BF23A0 /* libRTMP-macOS.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
-			path = libRTMP_macOS.framework;
+			path = "libRTMP-macOS.framework";
 			remoteRef = E884E93D1FFE6D7200BF23A0 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
@@ -363,15 +371,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		E8864953217C7551003F6BE7 /* PBXTargetDependency */ = {
+		E8E026EF217C93E200B1974E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = dylibRTMP_iOS;
-			targetProxy = E8864952217C7551003F6BE7 /* PBXContainerItemProxy */;
+			name = "dylibRTMP-iOS";
+			targetProxy = E8E026EE217C93E200B1974E /* PBXContainerItemProxy */;
 		};
-		E8864989217C7A5F003F6BE7 /* PBXTargetDependency */ = {
+		E8E026F2217C955E00B1974E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = dylibRTMP_macOS;
-			targetProxy = E8864988217C7A5F003F6BE7 /* PBXContainerItemProxy */;
+			name = "dylibRTMP-macOS";
+			targetProxy = E8E026F1217C955E00B1974E /* PBXContainerItemProxy */;
+		};
+		E8E026F6217C958B00B1974E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "dylibRTMP-macOS";
+			targetProxy = E8E026F5217C958B00B1974E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -406,12 +419,64 @@
 		E884E9341FFE6D6300BF23A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
 			};
 			name = Debug;
 		};
 		E884E9351FFE6D6300BF23A0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
 			};
 			name = Release;
 		};

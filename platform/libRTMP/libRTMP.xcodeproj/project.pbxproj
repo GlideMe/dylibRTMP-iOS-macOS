@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E850E9281E02F44A0000CFC3 /* libRTMP_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = E850E9261E02F44A0000CFC3 /* libRTMP_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E850E9281E02F44A0000CFC3 /* libRTMP-iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = E850E9261E02F44A0000CFC3 /* libRTMP-iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E850E9421E02F5010000CFC3 /* amf.c in Sources */ = {isa = PBXBuildFile; fileRef = E850E92F1E02F5010000CFC3 /* amf.c */; };
 		E850E9431E02F5010000CFC3 /* amf.h in Headers */ = {isa = PBXBuildFile; fileRef = E850E9301E02F5010000CFC3 /* amf.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E850E9441E02F5010000CFC3 /* bytes.h in Headers */ = {isa = PBXBuildFile; fileRef = E850E9311E02F5010000CFC3 /* bytes.h */; };
@@ -42,14 +42,14 @@
 		E850E97C1E02FD6D0000CFC3 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E850E95E1E02F97E0000CFC3 /* libz.tbd */; };
 		E850E97E1E02FD800000CFC3 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E850E97D1E02FD800000CFC3 /* libcrypto.a */; };
 		E850E9801E02FD8B0000CFC3 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E850E97F1E02FD8B0000CFC3 /* libssl.a */; };
-		E850E9821E02FE990000CFC3 /* libRTMP_macOS.h in Headers */ = {isa = PBXBuildFile; fileRef = E850E9811E02FE990000CFC3 /* libRTMP_macOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E886493F217C7293003F6BE7 /* dylibRTMP_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = E886493D217C7293003F6BE7 /* dylibRTMP_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E8864943217C7317003F6BE7 /* libRTMP_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E850E9231E02F44A0000CFC3 /* libRTMP_iOS.framework */; };
+		E850E9821E02FE990000CFC3 /* libRTMP-macOS.h in Headers */ = {isa = PBXBuildFile; fileRef = E850E9811E02FE990000CFC3 /* libRTMP-macOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E886493F217C7293003F6BE7 /* dylibRTMP-iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = E886493D217C7293003F6BE7 /* dylibRTMP-iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8864943217C7317003F6BE7 /* libRTMP-iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E850E9231E02F44A0000CFC3 /* libRTMP-iOS.framework */; };
 		E8864944217C7357003F6BE7 /* amf.h in Headers */ = {isa = PBXBuildFile; fileRef = E850E9301E02F5010000CFC3 /* amf.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E8864945217C7361003F6BE7 /* http.h in Headers */ = {isa = PBXBuildFile; fileRef = E850E9371E02F5010000CFC3 /* http.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E8864946217C7368003F6BE7 /* log.h in Headers */ = {isa = PBXBuildFile; fileRef = E850E93C1E02F5010000CFC3 /* log.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E8864947217C736E003F6BE7 /* rtmp.h in Headers */ = {isa = PBXBuildFile; fileRef = E850E9401E02F5010000CFC3 /* rtmp.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E886495E217C7695003F6BE7 /* dylibRTMP_macOS.h in Headers */ = {isa = PBXBuildFile; fileRef = E886495C217C7695003F6BE7 /* dylibRTMP_macOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E886495E217C7695003F6BE7 /* dylibRTMP-macOS.h in Headers */ = {isa = PBXBuildFile; fileRef = E886495C217C7695003F6BE7 /* dylibRTMP-macOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E8864964217C76C8003F6BE7 /* amf.h in Headers */ = {isa = PBXBuildFile; fileRef = E850E9301E02F5010000CFC3 /* amf.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E8864965217C76CD003F6BE7 /* bytes.h in Headers */ = {isa = PBXBuildFile; fileRef = E850E9311E02F5010000CFC3 /* bytes.h */; };
 		E8864966217C76CE003F6BE7 /* bytes.h in Headers */ = {isa = PBXBuildFile; fileRef = E850E9311E02F5010000CFC3 /* bytes.h */; };
@@ -72,7 +72,7 @@
 		E8864977217C7884003F6BE7 /* log.c in Sources */ = {isa = PBXBuildFile; fileRef = E850E93B1E02F5010000CFC3 /* log.c */; };
 		E8864978217C7887003F6BE7 /* rtmp.c in Sources */ = {isa = PBXBuildFile; fileRef = E850E93F1E02F5010000CFC3 /* rtmp.c */; };
 		E8864979217C7888003F6BE7 /* rtmp.c in Sources */ = {isa = PBXBuildFile; fileRef = E850E93F1E02F5010000CFC3 /* rtmp.c */; };
-		E886497A217C78CD003F6BE7 /* libRTMP_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E850E97A1E02FC1F0000CFC3 /* libRTMP_macOS.framework */; };
+		E886497A217C78CD003F6BE7 /* libRTMP-macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E850E97A1E02FC1F0000CFC3 /* libRTMP-macOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,8 +93,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E850E9231E02F44A0000CFC3 /* libRTMP_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = libRTMP_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E850E9261E02F44A0000CFC3 /* libRTMP_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = libRTMP_iOS.h; sourceTree = "<group>"; };
+		E850E9231E02F44A0000CFC3 /* libRTMP-iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "libRTMP-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E850E9261E02F44A0000CFC3 /* libRTMP-iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "libRTMP-iOS.h"; sourceTree = "<group>"; };
 		E850E9271E02F44A0000CFC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../platform/libRTMP/Info.plist; sourceTree = "<group>"; };
 		E850E92F1E02F5010000CFC3 /* amf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = amf.c; sourceTree = "<group>"; };
 		E850E9301E02F5010000CFC3 /* amf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = amf.h; sourceTree = "<group>"; };
@@ -114,15 +114,15 @@
 		E850E95A1E02F8D80000CFC3 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcrypto.a; path = ../OpenSSL/lib/iOS/libcrypto.a; sourceTree = "<group>"; };
 		E850E95C1E02F8E80000CFC3 /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libssl.a; path = ../OpenSSL/lib/iOS/libssl.a; sourceTree = "<group>"; };
 		E850E95E1E02F97E0000CFC3 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
-		E850E97A1E02FC1F0000CFC3 /* libRTMP_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = libRTMP_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E850E97A1E02FC1F0000CFC3 /* libRTMP-macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "libRTMP-macOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E850E97D1E02FD800000CFC3 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcrypto.a; path = ../OpenSSL/lib/Mac/libcrypto.a; sourceTree = "<group>"; };
 		E850E97F1E02FD8B0000CFC3 /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libssl.a; path = ../OpenSSL/lib/Mac/libssl.a; sourceTree = "<group>"; };
-		E850E9811E02FE990000CFC3 /* libRTMP_macOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libRTMP_macOS.h; sourceTree = "<group>"; };
-		E886493B217C7293003F6BE7 /* dylibRTMP_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = dylibRTMP_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E886493D217C7293003F6BE7 /* dylibRTMP_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dylibRTMP_iOS.h; sourceTree = "<group>"; };
+		E850E9811E02FE990000CFC3 /* libRTMP-macOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "libRTMP-macOS.h"; sourceTree = "<group>"; };
+		E886493B217C7293003F6BE7 /* dylibRTMP-iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "dylibRTMP-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E886493D217C7293003F6BE7 /* dylibRTMP-iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "dylibRTMP-iOS.h"; sourceTree = "<group>"; };
 		E886493E217C7293003F6BE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E886495A217C7694003F6BE7 /* dylibRTMP_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = dylibRTMP_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E886495C217C7695003F6BE7 /* dylibRTMP_macOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dylibRTMP_macOS.h; sourceTree = "<group>"; };
+		E886495A217C7694003F6BE7 /* dylibRTMP-macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "dylibRTMP-macOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E886495C217C7695003F6BE7 /* dylibRTMP-macOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "dylibRTMP-macOS.h"; sourceTree = "<group>"; };
 		E886495D217C7695003F6BE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -151,7 +151,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8864943217C7317003F6BE7 /* libRTMP_iOS.framework in Frameworks */,
+				E8864943217C7317003F6BE7 /* libRTMP-iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,7 +159,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E886497A217C78CD003F6BE7 /* libRTMP_macOS.framework in Frameworks */,
+				E886497A217C78CD003F6BE7 /* libRTMP-macOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,8 +170,8 @@
 			isa = PBXGroup;
 			children = (
 				E850E9251E02F44A0000CFC3 /* libRTMP */,
-				E886493C217C7293003F6BE7 /* dylibRTMP_iOS */,
-				E886495B217C7695003F6BE7 /* dylibRTMP_macOS */,
+				E886493C217C7293003F6BE7 /* dylibRTMP-iOS */,
+				E886495B217C7695003F6BE7 /* dylibRTMP-macOS */,
 				E850E9241E02F44A0000CFC3 /* Products */,
 				E850E9591E02F8D80000CFC3 /* Frameworks */,
 			);
@@ -180,10 +180,10 @@
 		E850E9241E02F44A0000CFC3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E850E9231E02F44A0000CFC3 /* libRTMP_iOS.framework */,
-				E850E97A1E02FC1F0000CFC3 /* libRTMP_macOS.framework */,
-				E886493B217C7293003F6BE7 /* dylibRTMP_iOS.framework */,
-				E886495A217C7694003F6BE7 /* dylibRTMP_macOS.framework */,
+				E850E9231E02F44A0000CFC3 /* libRTMP-iOS.framework */,
+				E850E97A1E02FC1F0000CFC3 /* libRTMP-macOS.framework */,
+				E886493B217C7293003F6BE7 /* dylibRTMP-iOS.framework */,
+				E886495A217C7694003F6BE7 /* dylibRTMP-macOS.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -192,8 +192,8 @@
 			isa = PBXGroup;
 			children = (
 				E850E92E1E02F5010000CFC3 /* librtmp */,
-				E850E9261E02F44A0000CFC3 /* libRTMP_iOS.h */,
-				E850E9811E02FE990000CFC3 /* libRTMP_macOS.h */,
+				E850E9261E02F44A0000CFC3 /* libRTMP-iOS.h */,
+				E850E9811E02FE990000CFC3 /* libRTMP-macOS.h */,
 			);
 			name = libRTMP;
 			sourceTree = "<group>";
@@ -234,22 +234,22 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E886493C217C7293003F6BE7 /* dylibRTMP_iOS */ = {
+		E886493C217C7293003F6BE7 /* dylibRTMP-iOS */ = {
 			isa = PBXGroup;
 			children = (
-				E886493D217C7293003F6BE7 /* dylibRTMP_iOS.h */,
+				E886493D217C7293003F6BE7 /* dylibRTMP-iOS.h */,
 				E886493E217C7293003F6BE7 /* Info.plist */,
 			);
-			path = dylibRTMP_iOS;
+			path = "dylibRTMP-iOS";
 			sourceTree = "<group>";
 		};
-		E886495B217C7695003F6BE7 /* dylibRTMP_macOS */ = {
+		E886495B217C7695003F6BE7 /* dylibRTMP-macOS */ = {
 			isa = PBXGroup;
 			children = (
-				E886495C217C7695003F6BE7 /* dylibRTMP_macOS.h */,
+				E886495C217C7695003F6BE7 /* dylibRTMP-macOS.h */,
 				E886495D217C7695003F6BE7 /* Info.plist */,
 			);
-			path = dylibRTMP_macOS;
+			path = "dylibRTMP-macOS";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,7 +262,7 @@
 				E850E9531E02F5010000CFC3 /* rtmp.h in Headers */,
 				E850E94A1E02F5010000CFC3 /* http.h in Headers */,
 				E850E9441E02F5010000CFC3 /* bytes.h in Headers */,
-				E850E9281E02F44A0000CFC3 /* libRTMP_iOS.h in Headers */,
+				E850E9281E02F44A0000CFC3 /* libRTMP-iOS.h in Headers */,
 				E850E9461E02F5010000CFC3 /* dh.h in Headers */,
 				E850E9431E02F5010000CFC3 /* amf.h in Headers */,
 				E850E94F1E02F5010000CFC3 /* log.h in Headers */,
@@ -283,7 +283,7 @@
 				E850E9711E02FC1F0000CFC3 /* amf.h in Headers */,
 				E850E9721E02FC1F0000CFC3 /* log.h in Headers */,
 				E850E9731E02FC1F0000CFC3 /* handshake.h in Headers */,
-				E850E9821E02FE990000CFC3 /* libRTMP_macOS.h in Headers */,
+				E850E9821E02FE990000CFC3 /* libRTMP-macOS.h in Headers */,
 				E850E9741E02FC1F0000CFC3 /* dhgroups.h in Headers */,
 				E850E9751E02FC1F0000CFC3 /* rtmp_sys.h in Headers */,
 			);
@@ -300,7 +300,7 @@
 				E8864945217C7361003F6BE7 /* http.h in Headers */,
 				E8864969217C76D4003F6BE7 /* dhgroups.h in Headers */,
 				E8864946217C7368003F6BE7 /* log.h in Headers */,
-				E886493F217C7293003F6BE7 /* dylibRTMP_iOS.h in Headers */,
+				E886493F217C7293003F6BE7 /* dylibRTMP-iOS.h in Headers */,
 				E8864944217C7357003F6BE7 /* amf.h in Headers */,
 				E8864970217C76EC003F6BE7 /* rtmp_sys.h in Headers */,
 			);
@@ -313,7 +313,7 @@
 				E886496F217C76E8003F6BE7 /* rtmp.h in Headers */,
 				E886496D217C76DA003F6BE7 /* http.h in Headers */,
 				E8864966217C76CE003F6BE7 /* bytes.h in Headers */,
-				E886495E217C7695003F6BE7 /* dylibRTMP_macOS.h in Headers */,
+				E886495E217C7695003F6BE7 /* dylibRTMP-macOS.h in Headers */,
 				E8864968217C76D2003F6BE7 /* dh.h in Headers */,
 				E8864964217C76C8003F6BE7 /* amf.h in Headers */,
 				E886496E217C76DF003F6BE7 /* log.h in Headers */,
@@ -326,9 +326,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		E850E9221E02F44A0000CFC3 /* libRTMP_iOS */ = {
+		E850E9221E02F44A0000CFC3 /* libRTMP-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E850E92B1E02F44A0000CFC3 /* Build configuration list for PBXNativeTarget "libRTMP_iOS" */;
+			buildConfigurationList = E850E92B1E02F44A0000CFC3 /* Build configuration list for PBXNativeTarget "libRTMP-iOS" */;
 			buildPhases = (
 				E850E91E1E02F44A0000CFC3 /* Sources */,
 				E850E91F1E02F44A0000CFC3 /* Frameworks */,
@@ -339,14 +339,14 @@
 			);
 			dependencies = (
 			);
-			name = libRTMP_iOS;
+			name = "libRTMP-iOS";
 			productName = libRTMP;
-			productReference = E850E9231E02F44A0000CFC3 /* libRTMP_iOS.framework */;
+			productReference = E850E9231E02F44A0000CFC3 /* libRTMP-iOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		E850E9601E02FC1F0000CFC3 /* libRTMP_macOS */ = {
+		E850E9601E02FC1F0000CFC3 /* libRTMP-macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E850E9771E02FC1F0000CFC3 /* Build configuration list for PBXNativeTarget "libRTMP_macOS" */;
+			buildConfigurationList = E850E9771E02FC1F0000CFC3 /* Build configuration list for PBXNativeTarget "libRTMP-macOS" */;
 			buildPhases = (
 				E850E9611E02FC1F0000CFC3 /* Sources */,
 				E850E9671E02FC1F0000CFC3 /* Frameworks */,
@@ -357,14 +357,14 @@
 			);
 			dependencies = (
 			);
-			name = libRTMP_macOS;
+			name = "libRTMP-macOS";
 			productName = libRTMP;
-			productReference = E850E97A1E02FC1F0000CFC3 /* libRTMP_macOS.framework */;
+			productReference = E850E97A1E02FC1F0000CFC3 /* libRTMP-macOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		E886493A217C7293003F6BE7 /* dylibRTMP_iOS */ = {
+		E886493A217C7293003F6BE7 /* dylibRTMP-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E8864942217C7293003F6BE7 /* Build configuration list for PBXNativeTarget "dylibRTMP_iOS" */;
+			buildConfigurationList = E8864942217C7293003F6BE7 /* Build configuration list for PBXNativeTarget "dylibRTMP-iOS" */;
 			buildPhases = (
 				E8864936217C7293003F6BE7 /* Headers */,
 				E8864937217C7293003F6BE7 /* Sources */,
@@ -376,14 +376,14 @@
 			dependencies = (
 				E8864949217C73FC003F6BE7 /* PBXTargetDependency */,
 			);
-			name = dylibRTMP_iOS;
+			name = "dylibRTMP-iOS";
 			productName = dylibRTMP_iOS;
-			productReference = E886493B217C7293003F6BE7 /* dylibRTMP_iOS.framework */;
+			productReference = E886493B217C7293003F6BE7 /* dylibRTMP-iOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		E8864959217C7694003F6BE7 /* dylibRTMP_macOS */ = {
+		E8864959217C7694003F6BE7 /* dylibRTMP-macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E8864961217C7695003F6BE7 /* Build configuration list for PBXNativeTarget "dylibRTMP_macOS" */;
+			buildConfigurationList = E8864961217C7695003F6BE7 /* Build configuration list for PBXNativeTarget "dylibRTMP-macOS" */;
 			buildPhases = (
 				E8864955217C7694003F6BE7 /* Headers */,
 				E8864956217C7694003F6BE7 /* Sources */,
@@ -395,9 +395,9 @@
 			dependencies = (
 				E8864963217C76BF003F6BE7 /* PBXTargetDependency */,
 			);
-			name = dylibRTMP_macOS;
+			name = "dylibRTMP-macOS";
 			productName = dylibRTMP_macOS;
-			productReference = E886495A217C7694003F6BE7 /* dylibRTMP_macOS.framework */;
+			productReference = E886495A217C7694003F6BE7 /* dylibRTMP-macOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -441,10 +441,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E850E9221E02F44A0000CFC3 /* libRTMP_iOS */,
-				E850E9601E02FC1F0000CFC3 /* libRTMP_macOS */,
-				E886493A217C7293003F6BE7 /* dylibRTMP_iOS */,
-				E8864959217C7694003F6BE7 /* dylibRTMP_macOS */,
+				E850E9221E02F44A0000CFC3 /* libRTMP-iOS */,
+				E850E9601E02FC1F0000CFC3 /* libRTMP-macOS */,
+				E886493A217C7293003F6BE7 /* dylibRTMP-iOS */,
+				E8864959217C7694003F6BE7 /* dylibRTMP-macOS */,
 			);
 		};
 /* End PBXProject section */
@@ -532,12 +532,12 @@
 /* Begin PBXTargetDependency section */
 		E8864949217C73FC003F6BE7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E850E9221E02F44A0000CFC3 /* libRTMP_iOS */;
+			target = E850E9221E02F44A0000CFC3 /* libRTMP-iOS */;
 			targetProxy = E8864948217C73FC003F6BE7 /* PBXContainerItemProxy */;
 		};
 		E8864963217C76BF003F6BE7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E850E9601E02FC1F0000CFC3 /* libRTMP_macOS */;
+			target = E850E9601E02FC1F0000CFC3 /* libRTMP-macOS */;
 			targetProxy = E8864962217C76BF003F6BE7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -794,14 +794,14 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = dylibRTMP_iOS/Info.plist;
+				INFOPLIST_FILE = "dylibRTMP-iOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.glidetalk.dylibRTMP-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -824,13 +824,13 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = dylibRTMP_iOS/Info.plist;
+				INFOPLIST_FILE = "dylibRTMP-iOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.glidetalk.dylibRTMP-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -855,14 +855,14 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = dylibRTMP_macOS/Info.plist;
+				INFOPLIST_FILE = "dylibRTMP-macOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.glidetalk.dylibRTMP-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 			};
@@ -887,13 +887,13 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = dylibRTMP_macOS/Info.plist;
+				INFOPLIST_FILE = "dylibRTMP-macOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.glidetalk.dylibRTMP-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 			};
@@ -911,7 +911,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E850E92B1E02F44A0000CFC3 /* Build configuration list for PBXNativeTarget "libRTMP_iOS" */ = {
+		E850E92B1E02F44A0000CFC3 /* Build configuration list for PBXNativeTarget "libRTMP-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E850E92C1E02F44A0000CFC3 /* Debug */,
@@ -920,7 +920,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E850E9771E02FC1F0000CFC3 /* Build configuration list for PBXNativeTarget "libRTMP_macOS" */ = {
+		E850E9771E02FC1F0000CFC3 /* Build configuration list for PBXNativeTarget "libRTMP-macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E850E9781E02FC1F0000CFC3 /* Debug */,
@@ -929,7 +929,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E8864942217C7293003F6BE7 /* Build configuration list for PBXNativeTarget "dylibRTMP_iOS" */ = {
+		E8864942217C7293003F6BE7 /* Build configuration list for PBXNativeTarget "dylibRTMP-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E8864940217C7293003F6BE7 /* Debug */,
@@ -938,7 +938,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E8864961217C7695003F6BE7 /* Build configuration list for PBXNativeTarget "dylibRTMP_macOS" */ = {
+		E8864961217C7695003F6BE7 /* Build configuration list for PBXNativeTarget "dylibRTMP-macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E886495F217C7695003F6BE7 /* Debug */,

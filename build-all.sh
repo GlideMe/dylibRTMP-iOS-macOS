@@ -33,7 +33,6 @@ echo "******************************************************"
 pushd ./scripts
 ./build-macOS.sh
 ./build-iOS.sh
-./strip-iOS-sim.sh
 echo "Done"
 popd
 

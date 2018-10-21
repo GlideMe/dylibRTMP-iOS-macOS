@@ -6,7 +6,7 @@
 //
 
 #import "AppDelegate.h"
-#import <libRTMP_macOS/libRTMP_macOS.h>
+#import <dylibRTMP-macOS/dylibRTMP-macOS.h>
 
 @interface AppDelegate () {
     struct RTMP* pRTMP;
