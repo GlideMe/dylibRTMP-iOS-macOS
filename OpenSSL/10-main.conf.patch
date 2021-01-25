@@ -1551,7 +1551,7 @@ my %targets = (
     },
     "darwin64-x86_64-cc" => {
         inherit_from     => [ "darwin-common", asm("x86_64_asm") ],
-        CFLAGS           => add("-Wall"),
+        CFLAGS           => add("-Wall -DOPENSSL_API_COMPAT=0x10000000L"),
         cflags           => add("-arch x86_64"),
         lib_cppflags     => add("-DL_ENDIAN"),
         bn_ops           => "SIXTY_FOUR_BIT_LONG",
@@ -1559,7 +1559,7 @@ my %targets = (
     },
     "darwin64-arm64-cc" => {
     	inherit_from     => [ "darwin-common", asm("aarch64_asm") ],
-    	CFLAGS           => add("-Wall"),
+    	CFLAGS           => add("-Wall -DOPENSSL_API_COMPAT=0x10000000L"),
     	cflags           => add("-arch arm64"),
     	lib_cppflags     => add("-DL_ENDIAN"),
     	bn_ops           => "SIXTY_FOUR_BIT_LONG",
